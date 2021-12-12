@@ -43,4 +43,8 @@ jobs:
 workflows:
   build:
     jobs:
-      - build  
+      - build-and-deploy
+          context: aws-eb
+          filters:
+            branches:
+              only: main

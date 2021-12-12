@@ -41,6 +41,7 @@ jobs:
           command: |
             npm run backend:deploy                
 workflows:
+  version: 2.1
   build:
     jobs:
       - build:

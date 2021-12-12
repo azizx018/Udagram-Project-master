@@ -42,7 +42,6 @@ jobs:
             npm run backend:deploy                
 workflows:
   version: 2.1
-  build:
     jobs:
       - build:
           filters:  # required since `deploy` has tag filters AND requires `build`

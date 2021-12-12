@@ -47,4 +47,5 @@ workflows:
           context: aws-eb
           filters:
             branches:
-              only: main
+              only: 
+                - main

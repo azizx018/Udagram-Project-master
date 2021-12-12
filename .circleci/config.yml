@@ -47,4 +47,4 @@ workflows:
       - build:
           filters:  # using regex filters requires the entire branch to match
             branches:
-              only: main
+              only: master

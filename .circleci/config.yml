@@ -43,9 +43,8 @@ jobs:
 workflows:
   build:
     jobs:
-      - build-and-deploy
-          context: aws-eb
-          filters:
+      - build:
+          filters:  # required since `deploy` has tag filters AND requires `build`
             branches:
               only: 
-                - main
+                -main

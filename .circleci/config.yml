@@ -42,9 +42,10 @@ jobs:
             npm run backend:deploy                
 workflows:
   version: 2.1
+  dev_stage_pre-prod:
     jobs:
       - build:
-          filters:  # required since `deploy` has tag filters AND requires `build`
+          filters:  # using regex filters requires the entire branch to match
             branches:
-              only: 
+              only:  # only branches matching the below regex filters will run
                 - main

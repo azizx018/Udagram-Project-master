@@ -40,4 +40,7 @@ jobs:
           name: Back-End Deploy App
           command: |
             npm run backend:deploy                
-  
+workflows:
+  build:
+    jobs:
+      - build  

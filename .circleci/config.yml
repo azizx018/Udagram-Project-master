@@ -42,7 +42,7 @@ jobs:
             npm run backend:deploy                
 workflows:
   version: 2.1
-  dev_stage_pre-prod:
+  build-deploy:
     jobs:
       - build:
           filters:  # using regex filters requires the entire branch to match

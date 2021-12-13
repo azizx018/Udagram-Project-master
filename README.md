@@ -7,11 +7,11 @@ The front end of this application can be accessed at:
 - http://udagram-final-1.s3-website-us-east-1.amazonaws.com
 
 # Build badge
-    <img src="https://circleci.com/gh/azizx018/Udagram-Project.svg? style=svg>
+    <img src="https://app.circleci.com/pipelines/gh/azizx018/Udagram-Project.svg? style=svg>
 
 
 
-extra: eb init --region us-east-1 --platform Node.js  udagram-final-project && eb deploy Udagramfinalproject-env
+
 
 
 

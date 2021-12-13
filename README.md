@@ -11,6 +11,10 @@ The front end of this application can be accessed at:
 
 
 
+extra: eb init --region us-east-1 --platform Node.js  udagram-final-project && eb deploy Udagramfinalproject-env
+
+
+
 
 
 

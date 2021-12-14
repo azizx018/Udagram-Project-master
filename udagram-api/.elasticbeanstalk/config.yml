@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: Udagramfinalproject-env
+deploy:
+  artifact: www/Archive.zip
 environment-defaults:
   Udagramfinalproject-env:
     branch: null
@@ -13,8 +15,6 @@ global:
   include_git_submodules: true
   instance_profile: null
   platform_name: null
-  platform_version: null 
+  platform_version: null
   sc: null
   workspace_type: Application
-deploy:
-  artifact: www/Archive.zip  

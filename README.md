@@ -10,12 +10,6 @@ The front end of this application can be accessed at:
 [![azizx018](https://app.circleci.com/pipelines/github/azizx018/Udagram-Project.svg? style=svg)]
 
 
-
-
-
-
-
-
 ### Dependencies-
 
 ```

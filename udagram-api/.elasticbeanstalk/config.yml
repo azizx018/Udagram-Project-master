@@ -17,4 +17,5 @@ global:
   platform_name: null
   platform_version: null
   sc: null
+  profile: Coconuts18
   workspace_type: Application

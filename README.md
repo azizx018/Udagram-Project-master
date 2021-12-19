@@ -7,7 +7,7 @@ The front end of this application can be accessed at:
 - http://udagram-final-1.s3-website-us-east-1.amazonaws.com
 
 # Build badge
--[![CircleCI](https://app.circleci.com/pipelines/gh/azizx018/Udagram-Project-master/68/workflows/055d996a-92a5-4cd3-b2ce-4e74d7a0a6eb.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+-[![CircleCI](https://app.circleci.com/pipelines/gh/azizx018/Udagram-Project-master/68/workflows/055d996a-92a5-4cd3-b2ce-4e74d7a0a6eb.svg?style=svg)]
 
 
 

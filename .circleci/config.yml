@@ -5,21 +5,6 @@ orbs:
   aws-cli: circleci/aws-cli@1.3.1
   aws-elastic-beanstalk: circleci/aws-elastic-beanstalk@2.0.1
   # different jobs are calles later in the workflows sections
-<<<<<<< HEAD
-
-||||||| merged common ancestors
-workflows:
-  elastic-beanstalk-workflow:
-    jobs:
-      - eb/deploy:
-          context: aws-creds
-          environment-name: Udagramapi-env
-          filters:
-            branches:
-              only:
-                - main
-=======
->>>>>>> 6613fb3533b4372345aef30925901dea4e7c133d
 jobs:
   build:
     docker:

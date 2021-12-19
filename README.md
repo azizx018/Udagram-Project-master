@@ -6,7 +6,8 @@ This application is provided to you as an alternative starter project if you do 
 The front end of this application can be accessed at:
 - http://udagram-final-1.s3-website-us-east-1.amazonaws.com
 
-
+# Build badge
+-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 
 
 

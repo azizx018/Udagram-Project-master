@@ -14,8 +14,6 @@ workflows:
           filters:  # using regex filters requires the entire branch to match
             branches:
               only: master
-  elastic-beanstalk-workflow:
-    jobs:
       - eb/deploy:
           context: aws-creds
           environment-name: Udagramapi-env

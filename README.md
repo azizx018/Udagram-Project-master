@@ -6,6 +6,9 @@ This application is provided to you as an alternative starter project if you do 
 The front end of this application can be accessed at:
 - http://udagram-final-1.s3-website-us-east-1.amazonaws.com
 
+# Build Badge
+[![<azizx018>](https://app.circleci.com/pipelines/github/azizx018/Udagram-Project-master/76/workflows/c397d3bf-d9a0-410d-99d9-df7ca0455a11.svg?style=svg)](<https://app.circleci.com/pipelines/github/azizx018/Udagram-Project-master>)
+
 
 
 
